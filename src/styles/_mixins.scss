@@ -1,22 +1,22 @@
 @import 'src/styles/variables';
 
 @mixin dashboard-section($variant: big) {
-    margin-top: $gap;
-    background-color: $bg-block;
-    border-radius: $radius;
+	margin-top: $gap;
+	background-color: $bg-block;
+	border-radius: $radius;
 
-    @if $variant == small {
-        padding: 18px 26px;
-    } @else {
-        padding: 25px 35px;
-    }
+	@if $variant == small {
+		padding: 18px 26px;
+	} @else {
+		padding: 25px 35px;
+	}
 }
 
 @mixin flex-horisontal-center {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 @mixin transition($property: all) {
-    transform: $property 0.3s easy-in-out;
+	transform: $property 0.3s easy-in-out;
 }
